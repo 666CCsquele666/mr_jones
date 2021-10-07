@@ -1,0 +1,328 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    margin: 0 auto;
+}
+
+img{
+    width:100%;
+    height:100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+  }
+ul{
+    list-style: none;
+}
+@import url("https://fonts.googleapis.com/css?family=Arima+Madurai:300");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.wrmf{
+  position: fixed;
+  width: 500px;
+  height: auto;
+  top:50%;
+  left: 80%;
+  opacity: 0.3;
+  transition: opacity 3s;
+}
+.wrmf:hover {opacity: 0;}
+
+.container__scroll--header{
+  font-size: 3.2rem;
+  text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  -webkit-text-stroke: 1px gold;
+  padding-right: 4%;
+  padding-top:9%;
+}
+.container__scroll--subheader {
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: 10px gray;
+  padding-top: 1%;
+  padding-right: 4%;
+  letter-spacing: -1px;
+  font-weight:lighter;
+  position: relative;
+  max-width:399px;
+  font-style: italic;
+}
+.container__scroll {
+  background-image: url(images/scroll.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height:800px;
+  width:100%;
+}
+.container__scroll--ak47{
+  width:100px;
+  height:auto;
+  margin: 0 auto;
+  image-rendering: pixelated;
+}
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 35rem;
+  image-rendering: pixelated;
+  background-image: url(images/bob.jpg);
+  background-blend-mode: soft-light;
+  background-repeat: no-repeat;
+  background-size: auto, 500px;
+  background-position: center;
+  padding: 2rem;
+}
+
+.bird {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg);
+  background-size: auto 100%;
+  width: auto;
+  height: 300px;
+  will-change: background-position;
+  animation-name: fly-cycle;
+  animation-timing-function: steps(10);
+  animation-iteration-count: infinite;
+}
+.bird--one {
+  animation-duration: 1s;
+  animation-delay: -0.5s;
+}
+.bird--two {
+  animation-duration: 0.9s;
+  animation-delay: -0.75s;
+}
+.bird--three {
+  animation-duration: 1.25s;
+  animation-delay: -0.25s;
+}
+.bird--four {
+  animation-duration: 0.1s;
+  animation-delay: -1.5s;
+}
+.bird--five {
+  animation-duration: 1.9s;
+  animation-delay: -2.7s;
+}
+.bird--six {
+  animation-duration: 9s;
+  animation-delay: 5.1s;
+}
+.bird--seven {
+  animation-duration: 7.6s;
+  animation-delay: 3.1s;
+}
+.bird--eight {
+  animation-duration: 2s;
+  animation-delay: 3.9s;
+}
+.bird--nine {
+  animation-duration: 10s;
+  animation-delay: 10s;
+}
+.bird--ten {
+  animation-duration: 5.7s;
+  animation-delay: 14s;
+}
+.bird--eleven {
+  animation-duration: 6.2s;
+  animation-delay: 4s;
+}
+.bird--twelve {
+  animation-duration: 9.1s;
+  animation-delay: 7.4s;
+}
+.bird--thirteen {
+  animation-duration: 1.7s;
+  animation-delay: 7.5s;
+}
+.bird--fourteen {
+  animation-duration: 3.7s;
+  animation-delay: 6.5s;
+}
+.bird--fifteen {
+  animation-duration: 4.7s;
+  animation-delay: 0.5s;
+}
+.bird--sixteen {
+  animation-duration: 8s;
+  animation-delay: 8s;
+}
+.bird--seventeen {
+  animation-duration: 3s;
+  animation-delay: 5s;
+}
+.bird--eighteen {
+  animation-duration: 6s;
+  animation-delay: 9s;
+}
+.bird--nineteen {
+  animation-duration: 4s;
+  animation-delay: 1s;
+}
+.bird--twenty {
+  animation-duration: 1.9s;
+  animation-delay: 6s;
+}
+
+.bird-container {
+  position: absolute;
+  top: 20%;
+  left: -10%;
+  transform: scale(0) translateX(-10vw);
+  will-change: transform;
+  animation-name: fly-right-one;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.bird-container--one {
+  animation-duration: 15s;
+  animation-delay: 0;
+}
+.bird-container--two {
+  animation-duration: 16s;
+  animation-delay: 1s;
+}
+.bird-container--three {
+  animation-duration: 14.6s;
+  animation-delay: 4.5s;
+}
+.bird-container--four {
+  animation-duration: 7s;
+  animation-delay: 6.25s;
+}
+.bird-container--five {
+  animation-duration: 6s;
+  animation-delay: 9.25s;
+}
+.bird-container--six {
+  animation-duration: 9s;
+  animation-delay: 10.25s;
+}
+.bird-container--seven {
+  animation-duration: 11s;
+  animation-delay: 14.25s;
+}
+.bird-container--eight {
+  animation-duration: 9s;
+  animation-delay: 15.25s;
+}
+.bird-container--nine {
+  animation-duration: 9s;
+  animation-delay: 7.25s;
+}
+.bird-container--ten {
+  animation-duration: 15s;
+  animation-delay: 11.25s;
+}
+.bird-container--eleven {
+  animation-duration: 7s;
+  animation-delay: 4s;
+}
+.bird-container--twelve {
+  animation-duration: 14.1s;
+  animation-delay: 1s;
+}
+.bird-container--thirteen {
+  animation-duration: 13.8s;
+  animation-delay: 9s;
+}
+.bird-container--fourteen {
+  animation-duration: 19s;
+  animation-delay: 10s;
+}
+.bird-container--fifteen {
+  animation-duration: 31s;
+  animation-delay: 8s;
+}
+.bird-container--sixteen {
+  animation-duration: 16.2s;
+  animation-delay: 4s;
+}
+.bird-container--seventeen {
+  animation-duration: 6.5s;
+  animation-delay: 7.5s;
+}
+.bird-container--eighteen {
+  animation-duration: 10.5s;
+  animation-delay: 3s;
+}
+.bird-container--nineteen {
+  animation-duration: 13.6s;
+  animation-delay: 20s;
+}
+.bird-container--twenty {
+  animation-duration: 7.9s;
+  animation-delay: 3s;
+}
+
+@keyframes fly-cycle {
+  100% {
+    background-position: 900px 0;
+  }
+}
+@keyframes fly-right-one {
+  0% {
+    transform: scale(0.3) translateX(-10vw);
+  }
+  10% {
+    transform: translateY(2vh) translateX(10vw) scale(0.4);
+  }
+  20% {
+    transform: translateY(0vh) translateX(30vw) scale(0.5);
+  }
+  30% {
+    transform: translateY(4vh) translateX(50vw) scale(0.6);
+  }
+  40% {
+    transform: translateY(2vh) translateX(70vw) scale(0.6);
+  }
+  50% {
+    transform: translateY(0vh) translateX(90vw) scale(0.6);
+  }
+  60% {
+    transform: translateY(0vh) translateX(110vw) scale(0.6);
+  }
+  100% {
+    transform: translateY(0vh) translateX(110vw) scale(0.6);
+  }
+}
+@keyframes fly-right-two {
+  0% {
+    transform: translateY(-2vh) translateX(-10vw) scale(0.5);
+  }
+  10% {
+    transform: translateY(0vh) translateX(10vw) scale(0.4);
+  }
+  20% {
+    transform: translateY(-4vh) translateX(30vw) scale(0.6);
+  }
+  30% {
+    transform: translateY(1vh) translateX(50vw) scale(0.45);
+  }
+  40% {
+    transform: translateY(-2.5vh) translateX(70vw) scale(0.5);
+  }
+  50% {
+    transform: translateY(0vh) translateX(90vw) scale(0.45);
+  }
+  51% {
+    transform: translateY(0vh) translateX(110vw) scale(0.45);
+  }
+  100% {
+    transform: translateY(0vh) translateX(110vw) scale(0.45);
+  }
+}
+
+/*# sourceMappingURL=output.css.map */
