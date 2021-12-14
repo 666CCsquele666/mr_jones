@@ -25,6 +25,11 @@ ul{
 *::after {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'gamle_stil'; 
+  src: url("/src/fonts/EnglishTowne.ttf");
+}
+
 .wrmf{
   position: fixed;
   width: 500px;
@@ -36,75 +41,22 @@ ul{
 }
 .wrmf:hover {opacity: 0;}
 
-.container__scroll--bat{
-  display: block;
-  position: relative;
-  bottom: 14%;
-  right: 2%;
-  filter: drop-shadow(20px 20px 20px yellow) invert(25%);
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-  height: auto;
-  transform: rotate(0.25turn);
-  
-}
-
-.container__scroll--header{
-  font-size: 3.2rem;
-  text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.6);
-  text-align: center;
-  -webkit-text-stroke: 1px gold;
-  padding-right: 4%;
-  padding-top:9%;
-}
-.container__scroll--subheader {
-  color: black;
-  font-size: 1rem;
-  text-align: center;
-  margin: 0 auto;
-  text-shadow: 10px gray;
-  padding-top: 1%;
-  padding-right: 4%;
-  letter-spacing: -1px;
-  font-weight:lighter;
-  position: relative;
-  max-width:399px;
-  font-style: italic;
-}
-
-.container__scroll__extreme--subheader2 {
-  color: black;
-  animation: glow 7s infinite ease;
+.container {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  -webkit-text-stroke: 0.3px gold;
-  font-size: 1.2rem;
-  text-align: center;
-  margin: 0 auto;
-  text-shadow: 10px gray;
-  padding-right: 4%;
-  font-weight:bold;
-  position: relative;
-  max-width:399px;
-  font-style: italic;
+  min-height: 35rem;
+  image-rendering: pixelated;
+  background-image: url(bg_images/bob.jpg);
+  background-blend-mode: soft-light;
+  background-repeat: no-repeat;
+  background-size: auto, 500px;
+  background-position: center;
+  padding: 2rem;
 }
-
-@keyframes glow {
-  0%,
-  100% {
-    text-shadow: 0 0 1vw #FFFFFF, 0 0 3vw #FFFFFF, 0 0 10vw #FFFFFF, 0 0 10vw #FFFFFF, 0 0 .4vw #FED128, .4vw .3vw .1vw #806914;
-    color: #000000;
-  }
-  50% {
-    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #000000, 0 0 5vw #000000, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .4vw .3vw .1vw #40340A;
-    color: #806914;
-  }
-}
-
-
-
 
 .container__scroll {
+  padding-left:1.1%;
   position: relative;
   z-index: 1;
   background-image: url(bg_images/scroll.png);
@@ -119,6 +71,86 @@ ul{
   margin: 0 auto;
   image-rendering: pixelated;
 }
+
+.container__scroll--bat{
+  display: block;
+  position: relative;
+  bottom: 10%;
+  right: 2%;
+  filter: drop-shadow(20px 20px 20px yellow) invert(25%);
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: auto;
+  transform: rotate(0.25turn);
+}
+.container__scroll--header{
+  font-family:'gamle_stil';
+  font-size: 5rem;
+  animation: glow 4s infinite ease;
+  animation-direction: alternate;
+  animation-delay: 5s;
+  letter-spacing:0.5px;
+  text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  -webkit-text-stroke: 0.1px gold;
+  padding-right: 3%;
+  padding-top:9%;
+}
+.container__scroll--subheader {
+  color: black;
+  font-family: 'mellem_gamle_stil'; 
+  font-size: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 10px gray;
+  padding-top: 1%;
+  padding-right: 4%;
+  letter-spacing: -1px;
+  font-weight:lighter;
+  max-width:399px;
+  font-style: italic;
+}
+
+.container__scroll__extreme--subheader2 {
+  font-family:'gamle_stil';
+  color: black;
+  animation: glow 7s infinite ease;
+  justify-content: center;
+  animation-direction: alternate;
+  -webkit-text-stroke: 0.1px gold;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.6);
+  padding-right: 4%;
+  font-weight:bold;
+  position: relative;
+  max-width:399px;
+  font-style: italic;
+}
+
+@keyframes glow {
+  0%{
+    text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.6);
+  }
+  100% {
+    text-shadow: 0 0 1vw #FFFFFF, 0 0 3vw #FFFFFF, 0 0 10vw #FFFFFF, 0 0 10vw #FFFFFF, 0 0 .4vw #FED128, .4vw .3vw .1vw #806914;
+    color: #000000;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #000000, 0 0 5vw #000000, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .4vw .3vw .1vw #40340A;
+    color: #806914;
+  }
+}
+@keyframes stroke {
+  100% {
+    -webkit-text-stroke: 0.1px gold;
+  }
+  50% {
+    -webkit-text-stroke: 0.1px goldenrod;
+  }
+}
 @keyframes extreme {
   0%   {color: black;}
   25%  {color: gold;}
@@ -127,19 +159,6 @@ ul{
   100% {color: black;}
   50%  {color: gold;}
   25%  {color: black;}
-}
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 35rem;
-  image-rendering: pixelated;
-  background-image: url(bg_images/bob.jpg);
-  background-blend-mode: soft-light;
-  background-repeat: no-repeat;
-  background-size: auto, 500px;
-  background-position: center;
-  padding: 2rem;
 }
 
 .bird {
