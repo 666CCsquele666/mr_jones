@@ -31,15 +31,19 @@ ul{
 }
 
 .wrmf{
-  position: fixed;
+  position: absolute;
   width: 500px;
   height: auto;
-  top:50%;
+  top:55%;
   left: 80%;
   opacity: 0.3;
   transition: opacity 3s;
 }
 .wrmf:hover {opacity: 0;}
+
+canvas {
+  position: absolute;
+}
 
 .container {
   display: flex;
@@ -50,9 +54,10 @@ ul{
   background-image: url(bg_images/bob.jpg);
   background-blend-mode: soft-light;
   background-repeat: no-repeat;
-  background-size: auto, 500px;
+  background-size: auto, 500px ;
   background-position: center;
   padding: 2rem;
+  border-bottom: goldenrod 20px groove;
 }
 
 .container__scroll {
@@ -94,7 +99,7 @@ ul{
   text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.6);
   text-align: center;
   -webkit-text-stroke: 0.1px gold;
-  padding-right: 3%;
+  padding-right: 4%;
   padding-top:9%;
 }
 .container__scroll--subheader {

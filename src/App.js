@@ -4,7 +4,9 @@ import './output.css';
 function App() {
   return (
     <div className="App">
+
       <div className="container">
+          
             <div className="container__scroll">
                 <h1 className="container__scroll--header">Mr. Jones</h1>
                 <h2 className="container__scroll--subheader">"Mr. Jones is a sadistic, 
@@ -22,7 +24,9 @@ function App() {
                 </div>
             </div>
                 <img className="wrmf" src="images/wrmf_true.png" alt="le_fishy"></img>
-                
+
+                <canvas>
+                </canvas>
             <div className="bird-container bird-container--one">
                 <div className="bird bird--one"></div>
             </div>
@@ -102,9 +106,9 @@ function App() {
             <div className="bird-container bird-container--twenty">
                 <div className="bird bird--twenty"></div>
             </div>      
-            
         </div>
     </div>
+    
   );
 }
 
