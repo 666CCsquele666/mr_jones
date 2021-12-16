@@ -70,12 +70,6 @@ canvas {
   height:800px;
   width:100%;
 }
-.container__scroll--ak47{
-  width:100px;
-  height:auto;
-  margin: 0 auto;
-  image-rendering: pixelated;
-}
 
 .container__scroll--bat{
   display: block;
