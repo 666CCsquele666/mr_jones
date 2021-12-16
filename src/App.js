@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
 
-      <div className="containe">
+      <div className="container">
           
             <div className="container__scroll">
                 <h1 className="container__scroll--header">Mr. Jones</h1>
