@@ -32,7 +32,6 @@ function App() {
                 <p className="container__scroll--quote"></p>
                 <img className="container__scroll--bat" src="images/bat.png" alt="ak47"></img>
                     <div className='container__scroll--controls'>
-                        <h2 className="container__scroll__extreme--subheader3">Move the little qrub around:</h2>
                         <h2 className='container__scroll--subheader2'>Up = 'W'</h2>
                         <h2 className='container__scroll--subheader2'>Down = 'S'</h2>
                         <h2 className='container__scroll--subheader2'>Right = 'D'</h2>

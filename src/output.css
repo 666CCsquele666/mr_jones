@@ -172,16 +172,12 @@ a:hover{
   font-style: italic;
 }
 .container__scroll__extreme--subheader3 {
-  font-family:'gamle_stil';
-  color: black;
-  animation: glow 7s infinite ease;
+  font-family:'mellem_gamle_stil';
+  color: black(255, 0, 0);
   justify-content: center;
-  animation-direction: alternate;
-  -webkit-text-stroke: 0.1px gold;
   font-size: 2rem;
   text-align: center;
   margin: 0 auto;
-  text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.6);
   padding-right: 4%;
   padding-bottom: 2%;
   font-weight:bold;

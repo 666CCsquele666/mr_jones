@@ -1,5 +1,6 @@
-
-
+window.onload = function () {
+let canvas = document.querySelector('canvas');
+let ctx = canvas.getContext('2d');
 
 const SCALE = 4;
 const WIDTH = 16;
@@ -15,8 +16,7 @@ const FRAME_LIMIT = 12;
 const MOVEMENT_SPEED = 4;
 const SPRINT = 8;
 
-let canvas = document.querySelector('canvas');
-let ctx = canvas.getContext('2d');
+
 let keyPresses = {};
 let currentDirection = FACING_DOWN;
 let currentLoopIndex = 0;
@@ -122,6 +122,4 @@ function moveCharacter(deltaX, deltaY, direction) {
   }
   currentDirection = direction;
 }
-
-
-
+}
