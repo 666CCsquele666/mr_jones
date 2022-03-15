@@ -4,19 +4,21 @@ import './output.css';
 function App() {
   return (
     <div className="App">
-        <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
-        <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
-        <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
-        <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
-        <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
-        <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
-        <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
-        <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
-        <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
-        <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
-        <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
-        <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
-        <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
+        <div className='hide_2'>
+            <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
+            <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
+            <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
+            <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
+            <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
+            <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
+            <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
+            <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
+            <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
+            <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
+            <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
+            <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
+            <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
+        </div>
       <div className="container">
           <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow show'>Soundcloud/MrJones666</a>
             <div className="container__scroll">

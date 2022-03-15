@@ -468,7 +468,7 @@ a:hover{
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1080px) {
   .container{
     display: none;
   }
@@ -481,12 +481,14 @@ a:hover{
   .hide{
     display: block;
     position: static;
-    animation: glow 7s infinite ease;
     margin: 0 auto;
-    animation-direction: alternate;
     -webkit-text-stroke: 0.1px gold;
     text-align: center;
-    font-size:4em;
+    width:100%;
+  }
+  .hide_2{
+    border: groove red 5px;
+    border: goldenrod 20px groove;
   }
 }
 /*# sourceMappingURL=output.css.map */
