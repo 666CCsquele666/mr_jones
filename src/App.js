@@ -18,7 +18,7 @@ function App() {
         <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
         <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow hide'>Soundcloud/MrJones666</a>
       <div className="container">
-          <a href='https://soundcloud.com/mrjones666' className='container__scroll--header2 grow show'>Soundcloud/MrJones666</a>
+          <a href='https://soundcloud.com/mrjones666' target="_blank" rel="noreferrer" className='container__scroll--header2 grow show'>Soundcloud/MrJones666</a>
             <div className="container__scroll">
                 <h1 className="container__scroll--header">Mr. Jones</h1>
                 <h2 className="container__scroll--subheader">"Mr. Jones is a sadistic, 
