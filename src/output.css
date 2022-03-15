@@ -110,6 +110,9 @@ canvas {
   z-index: 2;
   -webkit-text-stroke: 0.1px gold;
 }
+.hide{
+  display:none;
+}
 .container__scroll--header3{
   font-family:'gamle_stil';
   position: absolute;
@@ -464,4 +467,26 @@ a:hover{
   }
 }
 
+
+@media only screen and (max-width: 800px) {
+  .container{
+    display: none;
+  }
+  html{
+    background-image: url(bg_images/bob.jpg);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .hide{
+    display: block;
+    position: static;
+    animation: glow 7s infinite ease;
+    margin: 0 auto;
+    animation-direction: alternate;
+    -webkit-text-stroke: 0.1px gold;
+    text-align: center;
+    font-size:4em;
+  }
+}
 /*# sourceMappingURL=output.css.map */
