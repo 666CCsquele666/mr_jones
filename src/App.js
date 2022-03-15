@@ -6,7 +6,7 @@ function App() {
     <div className="App">
 
       <div className="container">
-          
+          <a href='https://soundcloud.com/mrjones666' className='container__scroll--header2 grow'>Soundcloud/MrJones666</a>
             <div className="container__scroll">
                 <h1 className="container__scroll--header">Mr. Jones</h1>
                 <h2 className="container__scroll--subheader">"Mr. Jones is a sadistic, 
@@ -17,11 +17,20 @@ function App() {
                 
                 <p className="container__scroll--quote"></p>
                 <img className="container__scroll--bat" src="images/bat.png" alt="ak47"></img>
+                    <div className='container__scroll--controls'>
+                        <h2 className="container__scroll__extreme--subheader3">Move the little qrub around:</h2>
+                        <h2 className='container__scroll--subheader2'>Up = 'W'</h2>
+                        <h2 className='container__scroll--subheader2'>Down = 'S'</h2>
+                        <h2 className='container__scroll--subheader2'>Right = 'D'</h2>
+                        <h2 className='container__scroll--subheader2'>Left = 'A'</h2>
+                        <h2 className='container__scroll--subheader2'>Sprint = 'F'</h2>
+                    </div>
                 <div className="container__scroll__extreme">
                     <h2 className="container__scroll__extreme--subheader2">
                         True Danish Euro Dance
                     </h2>
                 </div>
+                <a href='https://soundcloud.com/mrjones666' className='container__scroll--header3 grow'>Soundcloud/MrJones666</a>
             </div>
                 <img className="wrmf" src="images/wrmf_true.png" alt="le_fishy"></img>
 

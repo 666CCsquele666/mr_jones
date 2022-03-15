@@ -1,3 +1,6 @@
+
+
+
 const SCALE = 4;
 const WIDTH = 16;
 const HEIGHT = 18;
@@ -18,8 +21,8 @@ let keyPresses = {};
 let currentDirection = FACING_DOWN;
 let currentLoopIndex = 0;
 let frameCount = 0;
-let positionX = 0;
-let positionY = 0;
+let positionX = 500;
+let positionY = 500;
 let img = new Image();
 
 canvas.width  = window.innerWidth;
@@ -119,3 +122,6 @@ function moveCharacter(deltaX, deltaY, direction) {
   }
   currentDirection = direction;
 }
+
+
+

@@ -34,7 +34,7 @@ ul{
   position: absolute;
   width: 500px;
   height: auto;
-  top:55%;
+  top:60%;
   left: 80%;
   opacity: 0.3;
   transition: opacity 3s;
@@ -49,12 +49,11 @@ canvas {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 35rem;
+  min-height: 60rem;
   image-rendering: pixelated;
   background-image: url(bg_images/bob.jpg);
   background-blend-mode: soft-light;
   background-repeat: no-repeat;
-  background-size: auto, 500px ;
   background-position: center;
   padding: 2rem;
   border-bottom: goldenrod 20px groove;
@@ -69,6 +68,12 @@ canvas {
   background-position: center;
   height:800px;
   width:100%;
+}
+.container__scroll--controls{
+  position: relative;
+  text-align:end;
+  bottom:20%;
+  margin: 0 auto;
 }
 
 .container__scroll--bat{
@@ -96,6 +101,29 @@ canvas {
   padding-right: 4%;
   padding-top:9%;
 }
+.container__scroll--header2{
+  font-family:'gamle_stil';
+  position: absolute;
+  font-size: 2rem;
+  top: 5%;
+  padding-right: 1%;
+  z-index: 2;
+  -webkit-text-stroke: 0.1px gold;
+}
+.container__scroll--header3{
+  font-family:'gamle_stil';
+  position: absolute;
+  font-size: 2rem;
+  top: 100%;
+  right: 44%;
+  z-index: 2;
+  -webkit-text-stroke: 0.1px gold;
+}
+a:hover{
+  cursor: pointer;
+  transform: scale(200%);
+}
+.grow { transition: all .2s ease-in-out; }
 .container__scroll--subheader {
   color: black;
   font-family: 'mellem_gamle_stil'; 
@@ -110,7 +138,19 @@ canvas {
   max-width:399px;
   font-style: italic;
 }
+.container__scroll--subheader2{
+  color: black;
+  font-family: 'mellem_gamle_stil'; 
+  font-size: 1.1rem;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 10px gray;
+  padding-right: 4%;
+  letter-spacing: -1px;
+  max-width:399px;
+  font-style: italic;
 
+}
 .container__scroll__extreme--subheader2 {
   font-family:'gamle_stil';
   color: black;
@@ -128,6 +168,30 @@ canvas {
   max-width:399px;
   font-style: italic;
 }
+.container__scroll__extreme--subheader3 {
+  font-family:'gamle_stil';
+  color: black;
+  animation: glow 7s infinite ease;
+  justify-content: center;
+  animation-direction: alternate;
+  -webkit-text-stroke: 0.1px gold;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: 5px 1px 1px rgba(0, 0, 0, 0.6);
+  padding-right: 4%;
+  padding-bottom: 2%;
+  font-weight:bold;
+  position: relative;
+  max-width:500px;
+  font-style: italic;
+}
+.container__scroll__extreme{
+  position: relative;
+  bottom: 17%;
+}
+
+
 
 @keyframes glow {
   0%{
